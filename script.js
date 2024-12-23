@@ -14,6 +14,7 @@ const joinNow = document.getElementById("joinnow");
 preBook.addEventListener("mouseover",()=>{
 
     preBook.style.backgroundColor = "blue";
+    preBook.style.color = "white";
     
    
 })
@@ -22,6 +23,7 @@ preBook.addEventListener("mouseover",()=>{
 preBook.addEventListener("mouseleave",()=>{
 
     preBook.style.backgroundColor = "rgb(231, 11, 103)";
+    preBook.style.color = "black";
     
    
 })
